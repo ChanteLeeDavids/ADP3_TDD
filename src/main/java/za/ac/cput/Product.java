@@ -2,14 +2,14 @@ package za.ac.cput;
 
 public class Product {
     private String prodID;
-    private String prodName;
+    private String prodAmount;
 
-    public String getProdName() {
-        return prodName;
+    public String getProdAmount() {
+        return prodAmount;
     }
 
     public void setProdName(String prodName) {
-        this.prodName = prodName;
+        this.prodAmount = prodAmount;
     }
 
     public String getProdID() {
@@ -24,7 +24,7 @@ public class Product {
     public String toString() {
         return "Product{" +
                 "prodID='" + prodID + '\'' +
-                ", prodName='" + prodName + '\'' +
+                ", prodName='" + prodAmount + '\'' +
                 '}';
     }
 }

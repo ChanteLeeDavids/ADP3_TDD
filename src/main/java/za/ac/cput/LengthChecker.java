@@ -9,4 +9,8 @@ package za.ac.cput;
 
 public class LengthChecker {
 
+    public int countLength(String word){
+        return word.length();
+
+    }
 }
